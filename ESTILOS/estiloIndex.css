@@ -1,0 +1,80 @@
+#inicio{
+	margin-top: 70px;
+	padding: 50px 0px;
+}
+.presentation{
+	height: 100%;
+	align-items: center;
+}
+.presentation h1{
+	font-size: 4vw;
+	text-align: center;
+}
+.presentation p{
+	font-size: 20px;
+	text-align: center;
+	padding: 15px 0px;
+	margin-bottom: 30px;
+}
+.presentation .button{
+	font-size: 24px;
+	font-weight: bold;
+	padding: 4px 25px;
+}
+/*---------------------------*/
+#nosotros{
+	padding: 50px 0px;
+}
+#nosotros h2, #alianzas h2{
+	font-size: 3vw;
+	text-align: center;
+}
+#nosotros p{
+	text-align: center;
+	padding: 15px 0px;
+	font-size: 20px;
+}
+#nosotros .miembros{
+	padding: 30px 0px;
+}
+#nosotros .photo-item, #alianzas .ally-item{
+	padding: 12px;
+}
+#nosotros .miembros img{
+	border: 1px solid rgb(172, 172, 172);
+	border-radius: 50%;
+	cursor:pointer;
+}
+/*-----------------------*/
+#banner{
+	padding: 40px 0px;
+}
+#banner img{
+	width: 100%;
+}
+/*-----------------------*/
+#alianzas{
+	padding: 50px 0px;
+}
+.aliados{
+	padding: 40px 0px;
+}
+.aliados img{
+	cursor:pointer;
+}
+/*-----------------------*/
+
+@media (max-width: 991px){
+	.presentation h1{font-size:35px;}
+	#nosotros h2, #alianzas h2{font-size: 30px;}
+	.summarize{
+		padding-bottom:30px;
+	}
+	#formulario .space{
+		padding-right: 0px;
+	}
+}
+@media (max-width: 600px){
+	.presentation h1{font-size:30px;}
+	#nosotros h2, #alianzas h2{font-size: 25px;}
+}
