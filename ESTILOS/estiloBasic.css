@@ -28,6 +28,12 @@ html, body {
 	border-radius: 20px;
 	color: white;
 }
+.button:hover{
+	border: 1px solid #0A4ED3;
+	background: white;
+	color:#0A4ED3 !important;
+	transition: all ease 700ms;
+}
 a{
 	text-decoration: none;
 }
