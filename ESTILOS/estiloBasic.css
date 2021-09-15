@@ -275,4 +275,7 @@ label{
 	.info-contacto{
 		padding: 0px;
 	}
+	.copyright p{
+		font-size: 14px;
+	}
 }
