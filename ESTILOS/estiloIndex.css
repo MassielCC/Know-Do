@@ -24,6 +24,7 @@
 .name{
 	font-size: 22px !important;
 	padding-top: 15px;
+	text-align: center;
 }
 .cargo{
 	font-size: 16px;
@@ -32,6 +33,10 @@
 /*---------------------------*/
 #nosotros{
 	padding: 50px 0px;
+}
+.miembros{
+	width: 100%;
+	padding: 0px auto;
 }
 #nosotros h2, #alianzas h2, #mentores h2{
 	font-size: 3vw;
@@ -45,23 +50,30 @@
 #nosotros .miembros{
 	padding: 30px 0px;
 }
-#nosotros .photo-item, #alianzas .ally-item{
-	padding: 12px;
+#nosotros .photo-item{
+	padding: 20px;
 }
 #nosotros .miembros img{
 	border: 1px solid rgb(172, 172, 172);
 	border-radius: 50%;
 	cursor:pointer;
-}
+	}
 .name i{
 	color:#0A4ED3 !important;
 }
 /*-----------------------*/
 #banner{
 	padding: 40px 0px;
+	background: none;
+	transition: all ease 3500ms;
 }
-#banner img{
+#image-banner{
 	width: 100%;
+	height: 370px;
+	background-image: url('../../IMG/Banner.png');
+	background-position: right;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 /*-----------------------*/
 #alianzas, #mentores{
@@ -72,6 +84,9 @@
 }
 .aliados img{
 	cursor:pointer;
+}
+#alianzas .ally-item{
+	padding: 12px;
 }
 /*-----------------------*/
 #mentores{
@@ -95,15 +110,19 @@
 
 @media (max-width: 991px){
 	.presentation h1{font-size:35px;}
-	#nosotros h2, #alianzas h2{font-size: 30px;}
+	#nosotros h2, #alianzas h2, #mentores h2{font-size: 30px;}
 	.summarize{
 		padding-bottom:30px;
 	}
 	#formulario .space{
 		padding-right: 0px;
 	}
+	#image-banner{height:300px;}
 }
 @media (max-width: 600px){
 	.presentation h1{font-size:30px;}
-	#nosotros h2, #alianzas h2{font-size: 25px;}
+	#nosotros h2, #alianzas h2, #mentores h2{font-size: 25px;}
+	#image-banner{height:200px;}
+	.name, .name-mentor{font-size: 18px !important;}
+	.miembros{width:75%}
 }
