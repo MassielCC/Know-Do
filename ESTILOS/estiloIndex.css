@@ -21,11 +21,19 @@
 	font-weight: bold;
 	padding: 4px 25px;
 }
+.name{
+	font-size: 22px !important;
+	padding-top: 15px;
+}
+.cargo{
+	font-size: 16px;
+	text-align: center;
+}
 /*---------------------------*/
 #nosotros{
 	padding: 50px 0px;
 }
-#nosotros h2, #alianzas h2{
+#nosotros h2, #alianzas h2, #mentores h2{
 	font-size: 3vw;
 	text-align: center;
 }
@@ -53,7 +61,7 @@
 	width: 100%;
 }
 /*-----------------------*/
-#alianzas{
+#alianzas, #mentores{
 	padding: 50px 0px;
 }
 .aliados{
@@ -62,6 +70,24 @@
 .aliados img{
 	cursor:pointer;
 }
+/*-----------------------*/
+#mentores{
+	padding:70px 0px;
+}
+.each-mentor{
+	padding: 15px 10px;
+}
+.mentor-profile{
+	padding: 10px 20px;
+}
+.mentor-profile i{
+	padding-right: 8px;
+}
+.name-mentor{
+	color: #241A75;
+	padding-bottom: 10px;
+}
+
 /*-----------------------*/
 
 @media (max-width: 991px){
