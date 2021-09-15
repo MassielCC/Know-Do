@@ -159,19 +159,19 @@ section{
 	background: none;
 }
 .div1{
-	background-image: url('../../IMG/service1.jpg');
+	background-image: url('service1.jpg');
 	background-size: cover;
 	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 	transform:translateX(28px);
 }
 .div2{
-	background-image: url('../../IMG/service2.jpg');
+	background-image: url('service2.jpg');
 	background-size: cover;
 	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 	transform:translateX(14px);
 }
 .div3{
-	background-image: url('../../IMG/service3.jpg');
+	background-image: url('service3.jpg');
 	background-size: cover;
 	clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
