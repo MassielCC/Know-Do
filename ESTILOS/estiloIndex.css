@@ -132,3 +132,6 @@
 	.name, .name-mentor{font-size: 18px !important;}
 	.miembros{width:75%}
 }
+@media (max-width: 500px){
+	#image-banner{height: 150px;}
+}
