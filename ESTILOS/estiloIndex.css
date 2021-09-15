@@ -53,6 +53,9 @@
 	border-radius: 50%;
 	cursor:pointer;
 }
+.name i{
+	color:#0A4ED3 !important;
+}
 /*-----------------------*/
 #banner{
 	padding: 40px 0px;
