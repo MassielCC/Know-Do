@@ -11,17 +11,18 @@ body::-webkit-scrollbar-thumb{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-	font-family: 'Quicksand', sans-serif;
 }
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+	font-family: 'Quicksand'!important;
+
 }
 .primaryColor{
 	color:#0A4ED3 !important;
 }
 .normalText{
-	color: #545454;
+	color: #545454 !important;
 }
 .button{
 	background-color: #0A4ED3;
@@ -59,6 +60,9 @@ section{
 	align-items: center;
 	transition: all ease 350ms;
 }
+.font-bold{
+	font-weight: bold;
+}
 /*------------Menu------------*/
 .menu{
 	background: #241A75;
@@ -81,10 +85,6 @@ section{
 .all .logo img{
 	height: 50px;
 	margin: 10px;
-}
-.all .enlaces{
-	display: inline-block;
-	text-align: right;
 }
 .all .enlaces{
 	list-style: none;
@@ -176,51 +176,6 @@ section{
 	clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
-
-#formulario{
-	margin: 0px auto;
-	width: 100%;
-}
-#formulario i{
-	color: #545454;
-	padding-right: 8px;
-}
-#formulario h3{
-	padding-bottom: 8px;
-}
-#formulario .space{
-	padding-right: 50px;
-}
-form{
-	display: flex;
-	flex-wrap: wrap;
-}
-#nombre, #correo{
-	height: 25px;
-}
-input, textarea{	
-	width: 100%;
-	border: none;
-	background-color: #E8ECE8;
-	color: #1d1d1d;
-	margin-bottom: 20px;
-}
-textarea{
-	min-height: 80px;
-}
-label{
-	font-size: 18px;
-	margin-bottom: 15px;
-}
-#send{	
-	width: 40%;
-	margin-left: 30%;
-	color: white;
-	padding: 3px 8px;
-	font-size: 18px;
-	font-weight: bold;
-	cursor:pointer;
-}
 .copyright{
   background: #E8ECE8;
   width: 100%;
@@ -267,6 +222,9 @@ label{
 	.all-services{ visibility: hidden;}
 }
 @media (max-width: 500px){
+	.all .enlaces{
+		overflow-x: scroll;
+	}
 	.info-contacto, .summarize{
 		width: 100%;
 		padding: 0px auto;
