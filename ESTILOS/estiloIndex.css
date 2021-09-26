@@ -92,20 +92,22 @@
 	padding:70px 0px;
 }
 .each-mentor{
-	padding: 15px 18px;
+	padding: 15px;
+	height:min-content;
 }
 .each-mentor .photo img{
 	border-radius: 50%;
 }
 .mentor-profile{
 	padding: 10px 20px;
+	height: 100px;
 }
 .mentor-profile i{
 	padding-right: 8px;
 }
 .name-mentor{
 	color: #241A75;
-	padding-bottom: 10px;
+	padding-bottom: 6px;
 }
 .name-mentor i{
 	color: #241A75;
