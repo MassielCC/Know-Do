@@ -94,6 +94,9 @@
 .each-mentor{
 	padding: 15px 18px;
 }
+.each-mentor .photo img{
+	border-radius: 50%;
+}
 .mentor-profile{
 	padding: 10px 20px;
 }
